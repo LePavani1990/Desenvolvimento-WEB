@@ -13,15 +13,15 @@ import LogoIcon from "../../assets/svg/logo";
 //components
 import { SidebarHeader, CloseBtn, UlStyle } from "../Elements/Projects";
 
-function Sidebar({ sidebaropen, toggleSidebar }) {
+function Sidebar({ sidebarOpen, toggleSidebar }) {
   return (
-    <Wrapper className="animate whiteBg" sidebarOpen={sidebaropen}>
+    <Wrapper className="animate whiteBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
           <LogoIcon />
         </div>
         <CloseBtn
-          onClick={() => toggleSidebar(!sidebaropen)}
+          onClick={() => toggleSidebar(!sidebarOpen)}
           className="animate pointer"
         >
           <CloseIcon />
@@ -31,7 +31,7 @@ function Sidebar({ sidebaropen, toggleSidebar }) {
       <UlStyle className="flexNullCenter flexColumn">
         <li className="semiBold font15 pointer">
           <Link
-            onClick={() => toggleSidebar(!sidebaropen)}
+            onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
@@ -45,7 +45,7 @@ function Sidebar({ sidebaropen, toggleSidebar }) {
         </li>
         <li className="semiBold font15 pointer">
           <Link
-            onClick={() => toggleSidebar(!sidebaropen)}
+            onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
@@ -59,7 +59,7 @@ function Sidebar({ sidebaropen, toggleSidebar }) {
         </li>
         <li className="semiBold font15 pointer">
           <Link
-            onClick={() => toggleSidebar(!sidebaropen)}
+            onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
@@ -73,7 +73,7 @@ function Sidebar({ sidebaropen, toggleSidebar }) {
         </li>
         <li className="semiBold font15 pointer">
           <Link
-            onClick={() => toggleSidebar(!sidebaropen)}
+            onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}

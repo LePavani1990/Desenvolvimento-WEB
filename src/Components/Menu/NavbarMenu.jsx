@@ -20,7 +20,7 @@ import {
 
 function NavbarMenu() {
   const [y, setY] = useState(window.scrollY);
-  const [sidebaropen, toggleSidebar] = useState(false);
+  const [sidebarOpen, toggleSidebar] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => setY(window.scrollY));
@@ -31,8 +31,8 @@ function NavbarMenu() {
 
   return (
     <>
-      <Sidebar sidebarOpen={sidebaropen} toggleSidebar={toggleSidebar} />
-      {sidebaropen && <Backdrop toggleSidebar={toggleSidebar} />}
+      <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
+      {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper
         className="flexCenter animate whiteBgNav"
         style={y > 100 ? { height: "60px" } : { height: "80px" }}
@@ -43,7 +43,7 @@ function NavbarMenu() {
           </Link>
           <BurderWrapper
             className="pointer"
-            onClick={() => toggleSidebar(!sidebaropen)}
+            onClick={() => toggleSidebar(!sidebarOpen)}
           >
             <TestIcon />
           </BurderWrapper>

@@ -223,7 +223,7 @@ const BurderWrapper = styled.button`
   border: 0px;
   background-color: transparent;
   height: 100%;
-  padding: 0 15px;
+  padding: 0px 15px;
   display: none;
   @media (max-width: 760px) {
     display: block;
