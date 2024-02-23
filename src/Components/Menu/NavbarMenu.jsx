@@ -54,7 +54,7 @@ function NavbarMenu() {
                 style={{ padding: "10px 15px" }}
                 to="home"
                 spy={true}
-                smooth={true}
+                smooth={false}
                 offset={-80}
               >
                 Início
