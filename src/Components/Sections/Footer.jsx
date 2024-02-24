@@ -43,7 +43,7 @@ function Footer() {
             <Link
               className="LinkA whiteColor pointer font13"
               to="home"
-              smooth={true}
+              smooth={false}
               offset={-80}
             >
               Voltar ao início

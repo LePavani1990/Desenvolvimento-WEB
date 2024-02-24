@@ -1,13 +1,17 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-export default function TecBox({ img, title }) {
+export default function TecBox({ img, title, action }) {
+  const handleClick = () => {
+    window.open(action, "_blank");
+  };
+
   return (
-    <Wrapper>
+    <Wrapper onClick={handleClick}>
       <span>
-        <img className='radius8' src={img} alt={title}></img>
+        <img className="radius8 pointer" src={img} alt={title}></img>
       </span>
-      <h3 className='font20 extraBold'>{title}</h3>
+      <h3 className="font20 extraBold">{title}</h3>
     </Wrapper>
   );
 }

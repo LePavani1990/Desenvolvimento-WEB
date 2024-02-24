@@ -29,40 +29,88 @@ function SectionTechnologys() {
           </HeaderInfo>
           <div className="row textCenter flexCenter mb-30">
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec1} title="Node.js" />
+              <TecBox
+              img={Tec1}
+              title="Node.js"
+              action={"https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec2} title="React" />
+              <TecBox 
+              img={Tec2} 
+              title="React" 
+              action={"https://react.dev/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec3} title="Next.js" />
+              <TecBox
+              img={Tec3}
+              title="Next.js"
+              action={"https://nextjs.org/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec4} title="React Native" />
+              <TecBox
+              img={Tec4} 
+              title="React Native"
+              action={"https://reactnative.dev/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec8} title="Redis" />
+              <TecBox 
+              img={Tec8} 
+              title="Redis" 
+              action={"https://redis.io/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec9} title="RabbitMQ" />
+              <TecBox
+              img={Tec9} 
+              title="RabbitMQ"
+              action={"https://www.rabbitmq.com/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec6} title="PostgreSQL" />
+              <TecBox 
+              img={Tec6} 
+              title="PostgreSQL" 
+              action={"https://www.postgresql.org/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec5} title="MongoDB" />
+              <TecBox 
+              img={Tec5} 
+              title="MongoDB"
+              action={"https://www.mongodb.com/pt-br"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec7} title="MySQL" />
+              <TecBox
+              img={Tec7} 
+              title="MySQL" 
+              action={"https://www.mysql.com/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec10} title="AWS" />
+              <TecBox 
+              img={Tec10}
+              title="AWS" 
+              action={"https://aws.amazon.com/pt/"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec11} title="GCP" />
+              <TecBox 
+              img={Tec11} 
+              title="GCP"
+              action={"https://cloud.google.com/?hl=pt-BR"}
+              />
             </div>
             <div className="col-lg-2 col-md-3 col-sm-3 col-xs-4">
-              <TecBox img={Tec12} title="DigitalOcean" />
+              <TecBox
+              img={Tec12} 
+              title="DigitalOcean"
+              action={"https://www.digitalocean.com/"}
+              />
             </div>
           </div>
         </div>
