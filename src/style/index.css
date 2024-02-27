@@ -214,7 +214,7 @@ a:hover {
 }
 
 .LinkA:hover {
-  color: #2e2d2d;
+  color: #2d2e2d;
 }
 
 .effect {
@@ -228,7 +228,6 @@ a:hover {
 .hover-effect:hover > img {
   opacity: 0.5;
 }
-
 
 /* Sessão: Services */
 .slick-slider .slick-list,
